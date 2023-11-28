@@ -6,6 +6,7 @@ import Popup from '../../../components/Popup';
 import { underControl } from '../../../redux/userRelated/userSlice';
 import { getAllSclasses } from '../../../redux/sclassRelated/sclassHandle';
 import { CircularProgress } from '@mui/material';
+const Baseurl = "https://mernproject-eight.vercel.app/";
 
 const AddStudent = ({ situation }) => {
     const dispatch = useDispatch()
