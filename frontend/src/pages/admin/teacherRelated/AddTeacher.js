@@ -6,6 +6,7 @@ import Popup from '../../../components/Popup';
 import { registerUser } from '../../../redux/userRelated/userHandle';
 import { underControl } from '../../../redux/userRelated/userSlice';
 import { CircularProgress } from '@mui/material';
+const Baseurl = "https://mernproject-eight.vercel.app/";
 
 const AddTeacher = () => {
   const params = useParams()
