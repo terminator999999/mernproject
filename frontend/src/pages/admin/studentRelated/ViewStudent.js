@@ -19,6 +19,7 @@ import InsertChartOutlinedIcon from '@mui/icons-material/InsertChartOutlined';
 import TableChartIcon from '@mui/icons-material/TableChart';
 import TableChartOutlinedIcon from '@mui/icons-material/TableChartOutlined';
 import Popup from '../../../components/Popup';
+const Baseurl = "https://mernproject-eight.vercel.app/";
 
 const ViewStudent = () => {
     const [showTab, setShowTab] = useState(false);
