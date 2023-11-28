@@ -11,6 +11,8 @@ import { deleteUser } from '../../../redux/userRelated/userHandle';
 import TableTemplate from '../../../components/TableTemplate';
 import { GreenButton } from '../../../components/buttonStyles';
 import SpeedDialTemplate from '../../../components/SpeedDialTemplate';
+const Baseurl = "https://mernproject-eight.vercel.app/";
+
 
 const ShowNotices = () => {
 
