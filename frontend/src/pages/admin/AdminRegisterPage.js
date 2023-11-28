@@ -10,6 +10,8 @@ import { LightPurpleButton } from '../../components/buttonStyles';
 import { registerUser } from '../../redux/userRelated/userHandle';
 import styled from 'styled-components';
 import Popup from '../../components/Popup';
+const Baseurl = "https://mernproject-eight.vercel.app/";
+
 
 const defaultTheme = createTheme();
 
