@@ -5,6 +5,7 @@ import {
 } from '@mui/material';
 import { getAllComplains } from '../../../redux/complainRelated/complainHandle';
 import TableTemplate from '../../../components/TableTemplate';
+const Baseurl = "https://mernproject-eight.vercel.app/";
 
 const SeeComplains = () => {
 
