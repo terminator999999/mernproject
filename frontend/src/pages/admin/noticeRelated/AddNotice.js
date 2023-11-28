@@ -5,6 +5,7 @@ import { addStuff } from '../../../redux/userRelated/userHandle';
 import { underControl } from '../../../redux/userRelated/userSlice';
 import { CircularProgress } from '@mui/material';
 import Popup from '../../../components/Popup';
+const Baseurl = "https://mernproject-eight.vercel.app/";
 
 const AddNotice = () => {
   const dispatch = useDispatch();
