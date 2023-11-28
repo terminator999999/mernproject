@@ -8,6 +8,7 @@ import { BlueButton } from "../../../components/buttonStyles";
 import Popup from "../../../components/Popup";
 import Classroom from "../../../assets/classroom.png";
 import styled from "styled-components";
+const Baseurl = "https://mernproject-eight.vercel.app/"
 
 const AddClass = () => {
     const [sclassName, setSclassName] = useState("");
