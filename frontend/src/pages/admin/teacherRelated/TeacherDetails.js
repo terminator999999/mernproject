@@ -3,6 +3,7 @@ import { getTeacherDetails } from '../../../redux/teacherRelated/teacherHandle';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { Button, Container, Typography } from '@mui/material';
+const Baseurl = "https://mernproject-eight.vercel.app/";
 
 const TeacherDetails = () => {
     const navigate = useNavigate();
