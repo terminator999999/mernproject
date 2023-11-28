@@ -19,7 +19,7 @@ import Popup from "../../../components/Popup";
 import DeleteIcon from "@mui/icons-material/Delete";
 import PostAddIcon from '@mui/icons-material/PostAdd';
 
-const Baseurl = "https://mernproject-eight.vercel.app/"
+const Baseurl = "https://mernproject-eight.vercel.app/";
 
 const ClassDetails = () => {
     const params = useParams()
